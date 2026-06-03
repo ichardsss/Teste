@@ -11,9 +11,24 @@ git add <nome_do_arquivo>
 # Remover arquivo do stage 
 git rm --cached<nome_do_arquivo>
 
+# restaurar um arquivo
+git restore <nome_do_arquivo>
+
 # salvar o estado do repositorio
 git commit -m "sua msg"
 
 # mostrar o historico de commits
 git log
 git log --oneline
+
+# mostrar as alterações no repositorio
+git diff
+
+# exibir alterações de um commit
+git show <hash>
+
+# listar as branchs
+git branch
+
+# renomear a branch
+git branch -m <novo_nome>
