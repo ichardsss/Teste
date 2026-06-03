@@ -38,3 +38,12 @@ git branch <nome_novo_branch>
 
 # deletar uma branch
 git branch -d <nome_branch>
+
+# trocar branch 
+git switch <nome_da_branch>
+
+# mesclar uma branch em outra 
+git merge <nome_da_branch
+
+# mostrar autores de um arquivo 
+ git blame <nome_do_arquivo>
