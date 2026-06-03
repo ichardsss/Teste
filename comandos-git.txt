@@ -1,0 +1,12 @@
+git status
+# Inicializar um repositorio GIT
+git init .
+
+# Mostrar o estado atual do repositorio
+git status
+
+# Adicionar um arquivo em stage
+git add <nome_do_arquivo>
+
+# Remover arquivo do stage 
+git rm --cached<nome_do_arquivo>
