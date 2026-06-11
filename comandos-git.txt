@@ -18,7 +18,7 @@ git restore <nome_do_arquivo>
 git commit -m "sua msg"
 
 # mostrar o historico de commits
-git log #chard
+git log #chardolaaaaaaa
 git log --oneline
 
 # mostrar as alterações no repositorio
