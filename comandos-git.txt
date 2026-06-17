@@ -11,6 +11,19 @@ git add <nome_do_arquivo>
 # Commitar e substituir o ultimo commit 
 git commit -m "sua msg" --amend
 
+# Adicionar endereço remoto em um repositorio local
+git remote add <url>
+
+# Enviar alterações e definir a upstream(remoto) com a branch local
+git push -u origin <nome_da_branch>
+
+# Enviar alterações para o github
+git push
+git push origin <nome_da_branch>
+
+# Enviar alterações de uma branch local
+# para uma branch remota
+
 # Remover arquivo do stage 
 git rm --cached<nome_do_arquivo>
 
@@ -56,3 +69,9 @@ git reset <hash_do_commit>
 
 # Desfazer um commit (REMOTO)
 git revert <hash_do_commit>
+
+# Clonar repositorio
+git clone <url_copiada>
+
+# Verificar endereço remoto
+git remote -v
