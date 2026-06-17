@@ -1,3 +1,5 @@
+#Alterações feitas pela web
+
 git status
 # Inicializar um repositorio GIT
 git init .
@@ -7,6 +9,7 @@ git status
 
 # Adicionar um arquivo em stage
 git add <nome_do_arquivo>
+
 
 # Commitar e substituir o ultimo commit 
 git commit -m "sua msg" --amend
