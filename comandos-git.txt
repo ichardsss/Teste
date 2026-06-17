@@ -18,11 +18,11 @@ git restore <nome_do_arquivo>
 git commit -m "sua msg"
 
 # mostrar o historico de commits
-git log #alemona
+git log #alemona #git alemona
 git log --oneline
 
 # mostrar as alterações no repositorio
-git diff
+git diff #git alemona
 
 # exibir alterações de um commit
 git show <hash>v
