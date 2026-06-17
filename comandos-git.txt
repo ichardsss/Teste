@@ -8,6 +8,9 @@ git status
 # Adicionar um arquivo em stage
 git add <nome_do_arquivo>
 
+# Commitar e substituir o ultimo commit 
+git commit -m "sua msg" --amend
+
 # Remover arquivo do stage 
 git rm --cached<nome_do_arquivo>
 
@@ -47,3 +50,9 @@ git merge <nome_da_branch
 
 # mostrar autores de um arquivo 
  git blame <nome_do_arquivo>
+
+# Voltar para um commit anterior (LOCAL)
+git reset <hash_do_commit>
+
+# Desfazer um commit (REMOTO)
+git revert <hash_do_commit>
