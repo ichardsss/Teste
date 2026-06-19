@@ -1,5 +1,5 @@
 #Alterações feitas pela web
-
+#Opaaaaaaaaa MUDANÇAAAAAAAA
 git status
 # Inicializar um repositorio GIT
 git init .
