@@ -80,3 +80,9 @@ git clone <url_copiada>
 
 # Verificar endereço remoto
 git remote -v
+
+# Baixar as atualizações do reposiorio remoto, sem mesclar
+git fetch <nome_da_branch>
+
+# Baixar atualizações do reposiorio remoto e mesclar
+git pull <nome_da_branch> 
