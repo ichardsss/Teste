@@ -27,6 +27,8 @@ git push origin <nome_da_branch>
 # Enviar alterações de uma branch local
 # para uma branch remota
 
+
+
 # Remover arquivo do stage 
 git rm --cached<nome_do_arquivo>
 
